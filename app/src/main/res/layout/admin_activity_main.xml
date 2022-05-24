@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Admin.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical"
+        >
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="View Orphan"
+            android:background="#C62828"
+            android:textColor="#fff"
+            android:id="@+id/btnViewOrphan"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="View  Donation"
+            android:background="#C62828"
+            android:textColor="#fff"
+            android:id="@+id/btnViewDonation"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="View  Donor Feedback"
+            android:background="#C62828"
+            android:textColor="#fff"
+            android:id="@+id/btnViewFeedback"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="View Request Orphan Meeting"
+            android:background="#C62828"
+            android:textColor="#fff"
+            android:id="@+id/btnReqMeeting"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Logout"
+            android:background="#C62828"
+            android:textColor="#fff"
+            android:id="@+id/btnAdminlogout"
+            />
+    </LinearLayout>
+
+</LinearLayout>

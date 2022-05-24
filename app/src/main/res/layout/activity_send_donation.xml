@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Donor.SendDonationActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center_vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Name"
+        android:id="@+id/donationName"
+        android:background="#fff"
+        android:textColorHint="#222"
+        android:textColor="#222"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        android:id="@+id/donationEmail"
+
+        android:inputType="textEmailAddress"
+        android:background="#fff"
+        android:textColorHint="#222"
+        android:textColor="#222"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Phone"
+        android:id="@+id/donationPhone"
+
+        android:inputType="phone"
+        android:background="#fff"
+        android:textColorHint="#222"
+        android:textColor="#222"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:textColor="#222"
+        android:id="@+id/cardSpinner"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Enter Card No"
+        android:id="@+id/donationCardNum"
+
+        android:background="#fff"
+        android:textColorHint="#222"
+        android:textColor="#222"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Amount"
+        android:id="@+id/donationAmount"
+
+        android:background="#fff"
+        android:textColorHint="#222"
+        android:textColor="#222"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Date"
+        android:id="@+id/donationDate"
+
+        android:background="#fff"
+        android:textColorHint="#222"
+        android:textColor="#222"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="#FF8F00"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:id="@+id/btnSubmitdonation"
+
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
+</LinearLayout>

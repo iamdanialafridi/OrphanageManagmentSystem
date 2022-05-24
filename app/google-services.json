@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "523831699209",
+    "project_id": "orphanagemanagmentsystem",
+    "storage_bucket": "orphanagemanagmentsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523831699209:android:e60c49aa15afd0794015d8",
+        "android_client_info": {
+          "package_name": "com.example.orphanagemanagmentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523831699209-8jlpmi4gjg9nhadq662osvjpo7m106o3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnajaQYc1QCMX0mYpp6sDRUNLSRszAYe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523831699209-8jlpmi4gjg9nhadq662osvjpo7m106o3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

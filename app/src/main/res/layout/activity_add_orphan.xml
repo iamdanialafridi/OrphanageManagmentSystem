@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Admin.AddOrphanActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Orphan"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#673AB7"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:hint="Enter Name"
+            android:id="@+id/OrphanName"
+            android:textColorHint="#222"
+            android:textColor="#222"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:hint="Enter Age"
+            android:id="@+id/OrphanAge"
+            android:textColorHint="#222"
+            android:inputType="textEmailAddress"
+            android:textColor="#222"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="10dp"
+            android:id="@+id/OrphanGender"
+            android:layout_margin="10dp"
+            android:hint="Enter Gender"
+            android:textColorHint="#222"
+            android:textColor="#222"
+            android:inputType="text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:hint="Enter Date of Birth"
+            android:textColorHint="#222"
+            android:inputType="date"
+            android:id="@+id/OrphanDOB"
+            android:textColor="#222"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:hint="Enter Address"
+            android:textColorHint="#222"
+            android:id="@+id/OrphanADDR"
+            android:textColor="#222"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Report Image"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/OrphanIMG"
+            android:gravity="center"
+            android:background="#222"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Orphan"
+            android:background="#F44336"
+            android:id="@+id/btnAddOrphan"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
