@@ -16,6 +16,30 @@
         android:theme="@style/Theme.OrphanageManagmentSystem"
         tools:targetApi="31">
         <activity
+            android:name=".Admin.ViewOrphanMeetingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ViewFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ViewDonationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Donor.GiveFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Donor.ViewFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Donor.UpdateMeetingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Donor.ViewOrphanMeetingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Donor.RequestMeetingActivity"
+            android:exported="false" />
+        <activity
             android:name=".Donor.ViewDonationActivity"
             android:exported="false" />
         <activity
